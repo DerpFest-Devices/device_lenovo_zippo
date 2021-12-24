@@ -11,7 +11,6 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 DERP_BUILDTYPE := Official
 EXTRA_UDFPS_ANIMATIONS := true
