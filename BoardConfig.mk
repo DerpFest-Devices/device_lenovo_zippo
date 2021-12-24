@@ -24,6 +24,9 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := lineage_zippo_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
+  TARGET_KERNEL_CLANG_VERSION := proton
+  TARGET_KERNEL_BUILD_HOST := derpbox
+  TARGET_KERNEL_BUILD_USER := "einar"
 endif
 
 # Power
