@@ -14,6 +14,7 @@ IS_PHONE := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 DERP_BUILDTYPE := Official
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
