@@ -15,6 +15,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 DERP_BUILDTYPE := Official
 EXTRA_UDFPS_ANIMATIONS := true
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := zippo
