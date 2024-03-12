@@ -14,6 +14,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 DERP_BUILDTYPE := Official
 USE_LEGACY_BOOTANIMATION := true
 DERP_VERSION_APPEND_TIME_OF_DAY := true
+EXTRA_UDFPS_ICONS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
